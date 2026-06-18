@@ -5,13 +5,17 @@ import './index.css'
 import gsap from 'gsap'
 import Navbar from './components/Navbar'
 import About from './components/About'
+import { Analytics } from '@vercel/analytics/react'
+
 
 gsap.registerPlugin(ScrambleTextPlugin, SplitText, ScrollTrigger)
 
 const App = () => {
   return (
     <main>
+      <Analytics/>
       <Navbar/>
+
       <Hero/>
       <About/>
     </main>
