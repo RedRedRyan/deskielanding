@@ -90,7 +90,7 @@ const Hero = () => {
               <p className="subtitle">
                 Captures, organize, and bring your learning to life
               </p>
-              <a href="#about" className="badge">
+              <a href="https://github.com/JudeTulel/Deskie/releases/download/1.0.0/Deskmate-win32-x64-1.0.0.zip" className="badge">
                 <img src="/images/microsoft.png" alt="arrow" className="size-10" />
                 Download</a>
             </div>
